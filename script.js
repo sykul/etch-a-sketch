@@ -6,9 +6,8 @@ function addGrid() {
         let square = document.createElement("div");
         square.className = "square";
         containerDiv.appendChild(square);
-        square.style.height = '50px';
-        square.style.width = '50px';
+        square.style.height = '40px';
+        square.style.width = '40px';
     }
-
 }
 

@@ -1,3 +1,22 @@
 body {
    background-color: tomato;
 }
+
+h1 {
+   text-align: center;
+}
+
+.grid {
+   margin: auto;
+   justify-self: center;
+   align-self: center;
+   height: 640px;
+   width: 640px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.square {
+   background-color: aliceblue;
+   flex: 1 1 40px;
+}
