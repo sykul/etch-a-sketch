@@ -11,3 +11,4 @@ function addGrid() {
     }
 }
 
+const square = document.querySelectorAll(".square")
