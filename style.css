@@ -20,3 +20,7 @@ h1 {
    background-color: aliceblue;
    flex: 1 1 40px;
 }
+
+.blackSquare {
+   background-color: black;
+}

@@ -8,7 +8,15 @@ function addGrid() {
         containerDiv.appendChild(square);
         square.style.height = '40px';
         square.style.width = '40px';
+        square.addEventListener('mouseover', () => {
+            square.classList.add('blackSquare');
+        })
     }
 }
 
-const square = document.querySelectorAll(".square")
+function chooseSize() {
+    const gridSize = prompt("Choose your size.");
+    return gridSize;
+}
+
+document.querySelector("#sizeButton").addEventListener('click', chooseSize);
